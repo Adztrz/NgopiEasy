@@ -6,44 +6,74 @@ img
 
 body
 {
-    background-color: #e8f4f9;
+    background-color: #ffffff;
 }
 
 form
 {
+    position: fixed;
+    background-color: #32d3ff;
     display: flex;
     justify-content: center;
 
-    margin-left: 30%;
+    height: 100%;
+    width: 50%;
+    top: 0%;
+    left: 50%;
 }
 
-.Image
-{
-    position: absolute;
-    bottom: 27.5%;
-    left: 2%;
-}
 .Mail
 {
-    position: absolute;
-    bottom: 55%;
+    position: relative;
+    left: 17.5%;
+    top: 35%;
 }
 
 .Pass
 {
-    position: absolute;
-    bottom: 45%;
+    position: relative;
+    right: 25%;
+    top: 45%;
+}
+
+.LoginButton
+{
+    position: relative;
+    right: 40%;
+    top: 55%;
+}
+
+.Image
+{
+    position: fixed;
+    bottom: 27.5%;
+    left: 2%;
 }
 
 input[type=email], input[type=password]
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     font-size: 24px;
     text-align: center;
-    border: none;
-    border-bottom: 2px white;
+    border: thin;
+    border-bottom: 2px black;
+    background-color: whitesmoke;
     width: 150%;
 
-    padding:10px;
-    margin:10px;
+    padding: 10px;
+}
+
+.ForLogin
+{
+    background-color: #00a7d5;
+    border: none;
+    color: white;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+
+    padding: 10px;
 }
