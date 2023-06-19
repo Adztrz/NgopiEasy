@@ -1,79 +1,232 @@
-img
-{
-    width: 600px;
-    height: 400.5px;
-}
+/* screen - index */
 
-body
-{
-    background-color: #ffffff;
-}
-
-form
-{
-    position: fixed;
-    background-color: #32d3ff;
+.index {
+    align-items: flex-start;
+    background-color: var(--white);
+    border: 1px none;
     display: flex;
-    justify-content: center;
-
-    height: 100%;
-    width: 50%;
-    top: 0%;
-    left: 50%;
-}
-
-.Mail
-{
+    overflow: hidden;
+    width: 1920px;
+  }
+  
+  .index .frame-2 {
+    height: 1080px;
+    overflow: hidden;
+    width: 960px;
+  }
+  
+  .index .overlap-group3 {
+    height: 1891px;
+    margin-bottom: -913px;
+    margin-left: -546px;
     position: relative;
-    left: 17.5%;
-    top: 35%;
-}
-
-.Pass
-{
+    width: 1597px;
+  }
+  
+  .index .ellipse-2 {
+    background-color: #f1f1f1;
+    border-radius: 510px;
+    height: 1020px;
+    left: 0;
+    position: absolute;
+    top: 307px;
+    width: 1020px;
+  }
+  
+  .index .ellipse-3 {
+    background-color: #e4e4e4;
+    border-radius: 600px;
+    height: 1200px;
+    left: 397px;
+    position: absolute;
+    top: 691px;
+    width: 1200px;
+  }
+  
+  .index .x3572626-removebg-preview-1 {
+    height: 800px;
+    left: 643px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 800px;
+  }
+  
+  .index .overlap-group4 {
+    height: 1080px;
     position: relative;
-    right: 25%;
-    top: 45%;
-}
-
-.LoginButton
-{
-    position: relative;
-    right: 40%;
-    top: 55%;
-}
-
-.Image
-{
-    position: fixed;
-    bottom: 27.5%;
-    left: 2%;
-}
-
-input[type=email], input[type=password]
-{
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 24px;
+    width: 1500px;
+  }
+  
+  .index .rectangle-1 {
+    background-color: var(--blue-green);
+    height: 1080px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 960px;
+  }
+  
+  .index .ellipse-4 {
+    background-color: #10b0ce;
+    border-radius: 540px;
+    height: 1080px;
+    left: 420px;
+    position: absolute;
+    top: 0;
+    width: 1080px;
+  }
+  
+  .index .login-button {
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    height: 75px;
+    left: 557px;
+    min-width: 252px;
+    position: absolute;
+    top: 618px;
+  }
+  
+  .index .overlap-group {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    align-items: flex-end;
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: var(--white);
+    border-radius: 15px;
+    display: flex;
+    height: 75px;
+    justify-content: flex-end;
+    min-width: 250px;
+  }
+  
+  .index .login {
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    height: 74px;
+    letter-spacing: 0;
+    line-height: 38.4px;
     text-align: center;
-    border: thin;
-    border-bottom: 2px black;
-    background-color: whitesmoke;
-    width: 150%;
-
-    padding: 10px;
-}
-
-.ForLogin
-{
-    background-color: #00a7d5;
-    border: none;
-    color: white;
-    padding: 20px 60px;
+    width: 243px;
+  }
+  
+  .index .forgot-password {
+    color: #def9ff;
+    cursor: pointer;
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-weight: 500;
+    height: 153px;
+    left: 153px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    position: absolute;
+    top: 578px;
+    width: 347px;
+  }
+  
+  .index .frame-5 {
+    height: 95px;
+    left: 143px;
+    padding: 5px;
+    position: absolute;
+    top: 491px;
+    width: 673px;
+  }
+  
+  .index .overlap-group1 {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    align-items: flex-start;
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: var(--alto);
+    border: 4px solid;
+    border-color: var(--white);
+    border-radius: 15px;
+    display: flex;
+    height: 83px;
+    justify-content: flex-end;
+    margin-left: 1px;
+    min-width: 662px;
+    padding: 1px 8px;
+  }
+  
+  .index .password {
+    height: 71px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    width: 636px;
+  }
+  
+  .index .frame-4 {
+    height: 93px;
+    left: 142px;
+    padding: 4px 5px;
+    position: absolute;
+    top: 376px;
+    width: 674px;
+  }
+  
+  .index .overlap-group2 {
+    -webkit-backdrop-filter: blur(4px) brightness(100%);
+    align-items: flex-start;
+    backdrop-filter: blur(4px) brightness(100%);
+    background-color: var(--alto);
+    border: 4px solid;
+    border-color: var(--white);
+    border-radius: 15px;
+    display: flex;
+    height: 83px;
+    justify-content: flex-end;
+    margin-left: 2px;
+    min-width: 662px;
+    padding: 3px 8px;
+  }
+  
+  .index .username-email {
+    height: 71px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    width: 636px;
+  }
+  
+  .index .title {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    height: 142px;
+    left: 153px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    position: absolute;
+    top: 243px;
+    width: 499px;
+  }
+  
+  .index .dont-have-an-account-sign-up {
+    cursor: pointer;
+    height: 153px;
+    left: 153px;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    position: absolute;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    font-size: 20px;
-
-    padding: 10px;
-}
+    top: 774px;
+    width: 654px;
+  }
+  
+  .index .span1 {
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-style: italic;
+    font-weight: 800;
+  }
+  
+  .index .frame {
+    align-items: flex-end;
+    display: flex;
+  }
+  
