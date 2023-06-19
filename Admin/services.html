@@ -172,7 +172,7 @@
               <hr class="dropdown-divider">
             </li>
 
-            
+
             <li class="message-item">
               <a href="#">
                 <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
@@ -454,7 +454,7 @@
           <table class="table table-borderless datatable">
             <thead>
               <tr>
-                <th scope="col">#1</th>
+                <th scope="col">#</th>
                 <th scope="col">Title</th>
                 <th scope="col">Description</th>
                 <th scope="col">Image</th>
@@ -463,41 +463,80 @@
               </tr>
             </thead>            
 
+          
+
+            <div class="search-container">
+  <div class="new-column">+ New</div>
+  <form id="search-form" onsubmit="search(event)">
+    <input type="text" id="search-input" placeholder="Search...">
+  </form>
+</div>
+
+<style>
+  .search-container {
+    display: flex;
+    justify-content: space-between; /* Menempatkan elemen di antara tepi kanan dan kiri */
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 9px;
+    margin-right: 15px;
+  }
+
+  .new-column {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    width: 7%;
+    border-radius: 3px;
+    text: center;
+  }
+</style>
+
+
+
             <tbody>
               <tr>
-                <th scope="row"><a href="#">#2457</a></th>
-                <td>Brandon Jacob</td>
-                <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                <td>$64</td>
-                <td><span class="badge bg-success">Approved</span></td>
+                <th scope="row"><a href="#">#1</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
               </tr>
               <tr>
-                <th scope="row"><a href="#">#2147</a></th>
-                <td>Bridie Kessler</td>
-                <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                <td>$47</td>
-                <td><span class="badge bg-warning">Pending</span></td>
+                <th scope="row"><a href="#">#2</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
               </tr>
               <tr>
-                <th scope="row"><a href="#">#2049</a></th>
-                <td>Ashleigh Langosh</td>
-                <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                <td>$147</td>
-                <td><span class="badge bg-success">Approved</span></td>
+                <th scope="row"><a href="#">#3</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
               </tr>
               <tr>
-                <th scope="row"><a href="#">#2644</a></th>
-                <td>Angus Grady</td>
-                <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                <td>$67</td>
-                <td><span class="badge bg-danger">Rejected</span></td>
+                <th scope="row"><a href="#">#4</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
               </tr>
               <tr>
-                <th scope="row"><a href="#">#2644</a></th>
-                <td>Raheem Lehner</td>
-                <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                <td>$165</td>
-                <td><span class="badge bg-success">Approved</span></td>
+                <th scope="row"><a href="#">#5</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
+              </tr>
+              <tr>
+                <th scope="row"><a href="#">#6</a></th>
+                <td>Fotokopi</td>
+                <td>Menggunakan mesin terbaik</td>
+                <td>services_1.jpg</td>
+                <td>2023/06/12</td>
               </tr>
             </tbody>
           </table>
@@ -519,7 +558,7 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NgopiSkuy</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>NgopiEasy</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
     </div>
