@@ -8,6 +8,7 @@
     --white: #ffffff;
    
     --font-size-l: 72px;
+    --font-size-s: 25px;
     --font-size-xxl: 32px;
    
     --font-family-poppins: "Poppins", Helvetica;
@@ -50,5 +51,5 @@
     font-size: var(--font-size-xxl);
     font-style: italic;
     font-weight: 800;
-  }
+  }  
   
