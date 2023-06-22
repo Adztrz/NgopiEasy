@@ -1,28 +1,211 @@
+/* screen - index */
+
 .index {
-  align-items: flex-start;
   background-color: var(--white);
   border: 1px none;
-  display: flex;
-  overflow: hidden;
+  height: 1080px;
+  position: relative;
   width: 1920px;
+}
+
+.index .overlap-group5 {
+  height: 1080px;
+  left: 960px;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.index .frame-10 {
+  background-color: var(--blue-green);
+  height: 1080px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 960px;
+}
+
+.index .overlap-group-2 {
+  height: 1080px;
+  left: 153px;
+  position: relative;
+  width: 1347px;
+}
+
+.index .ellipse-4 {
+  background-color: var(--pacific-blue-2);
+  border-radius: 540px;
+  height: 1080px;
+  left: 267px;
+  position: absolute;
+  top: 0;
+  width: 1080px;
+}
+
+.index .have-an-account-sign-in {
+  cursor: pointer;
+  height: 153px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  text-align: center;
+  top: 898px;
+  width: 654px;
+}
+
+.index .reg-button {
+  cursor: pointer;
+  height: 75px;
+  left: 362px;
+  position: absolute;
+  top: 710px;
+  width: 252px;
+}
+
+.index .overlap-group1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  background-color: var(--white);
+  border-radius: 15px;
+  height: 75px;
+  position: relative;
+  width: 250px;
+}
+
+.index .place {
+  height: 74px;
+  left: 7px;
+  text-align: center;
+  top: 1px;
+  width: 243px;
+}
+
+.index .reg_fil {
+  height: 394px;
+  left: 141px;
+  position: absolute;
+  top: 262px;
+  width: 674px;
+}
+
+.index .frame-8 {
+  height: 95px;
+  left: 1px;
+  position: absolute;
+  top: 299px;
+  width: 673px;
+}
+
+.index .overlap-group {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  background-color: var(--alto);
+  border: 4px solid;
+  border-color: var(--white);
+  border-radius: 15px;
+  height: 83px;
+  left: 6px;
+  position: relative;
+  top: 7px;
+  width: 662px;
+}
+
+.index .password {
+  height: 71px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 1px;
+  width: 636px;
+}
+
+.index .frame-5 {
+  height: 95px;
+  left: 1px;
+  position: absolute;
+  top: 196px;
+  width: 673px;
+}
+
+.index .frame-7 {
+  height: 93px;
+  left: 0;
+  position: absolute;
+  top: 98px;
+  width: 674px;
+}
+
+.index .overlap-group-1 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  backdrop-filter: blur(4px) brightness(100%);
+  background-color: var(--alto);
+  border: 4px solid;
+  border-color: var(--white);
+  border-radius: 15px;
+  height: 83px;
+  left: 7px;
+  position: relative;
+  top: 6px;
+  width: 662px;
+}
+
+.index .valid-email {
+  height: 71px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 3px;
+  width: 636px;
+}
+
+.index .frame-4 {
+  height: 93px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 674px;
+}
+
+.index .username {
+  height: 71px;
+  left: 18px;
+  letter-spacing: 0;
+  line-height: 38.4px;
+  position: absolute;
+  top: 3px;
+  width: 636px;
+}
+
+.index .place-1 {
+  height: 142px;
+  left: 152px;
+  top: 119px;
+  width: 499px;
 }
 
 .index .frame-2 {
   height: 1080px;
+  left: 0;
   overflow: hidden;
+  position: absolute;
+  top: 0;
   width: 960px;
 }
 
 .index .overlap-group4 {
   height: 1891px;
-  margin-bottom: -913px;
-  margin-left: -546px;
+  left: -546px;
   position: relative;
+  top: 102px;
   width: 1597px;
 }
 
 .index .ellipse-2 {
-  background-color: var(--seashell);
+  background-color: var(--seashell2);
   border-radius: 510px;
   height: 1020px;
   left: 0;
@@ -32,7 +215,7 @@
 }
 
 .index .ellipse-3 {
-  background-color: var(--mercury);
+  background-color: var(--mercury2);
   border-radius: 600px;
   height: 1200px;
   left: 397px;
@@ -50,184 +233,8 @@
   width: 800px;
 }
 
-.index .overlap-group5 {
-  height: 1080px;
-  position: relative;
-  width: 1500px;
-}
-
-.index .rectangle-1 {
-  background-color: var(--blue-green);
-  height: 1080px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 960px;
-}
-
-.index .ellipse-4 {
-  background-color: var(--pacific-blue-2);
-  border-radius: 540px;
-  height: 1080px;
-  left: 420px;
-  position: absolute;
-  top: 0;
-  width: 1080px;
-}
-
-.index .reg-button {
-  align-items: flex-start;
-  cursor: pointer;
-  display: flex;
-  height: 75px;
-  left: 362px;
-  min-width: 252px;
-  position: absolute;
-  top: 710px;
-}
-
-.index .overlap-group-2 {
-  align-items: flex-end;
-  background-color: var(--white);
-  height: 75px;
-  min-width: 250px;
-}
-
-.index .place {
-  height: 74px;
-  text-align: center;
-  width: 243px;
-}
-
-.index .reg_fil {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 141px;
-  min-height: 394px;
-  position: absolute;
-  top: 262px;
-  width: 674px;
-}
-
-.index .frame-4 {
-  height: 93px;
-  padding: 4px 5px;
-  width: 674px;
-}
-
-.index .overlap-group {
-  -webkit-backdrop-filter: blur(4px) brightness(100%);
-  align-items: flex-start;
-  backdrop-filter: blur(4px) brightness(100%);
-  background-color: var(--alto);
-  border: 4px solid;
-  border-color: var(--white);
-  border-radius: 15px;
-  display: flex;
-  height: 83px;
-  justify-content: flex-end;
-  margin-left: 2px;
-  min-width: 662px;
-  padding: 3px 8px;
-}
-
-.index .username {
-  height: 71px;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  width: 636px;
-}
-
-.index .frame-7 {
-  height: 93px;
-  margin-top: 5px;
-  padding: 4px 5px;
-  width: 674px;
-}
-
-.index .valid-email {
-  height: 71px;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  width: 636px;
-}
-
-.index .frame-5 {
-  height: 95px;
-  margin-left: 1px;
-  margin-top: 5px;
-  padding: 5px;
-  width: 673px;
-}
-
-.index .overlap-group-1 {
-  align-items: flex-start;
-  background-color: var(--alto);
-  border: 4px solid;
-  border-color: var(--white);
-  height: 83px;
-  margin-left: 1px;
-  min-width: 662px;
-  padding: 1px 8px;
-}
-
-.index .password {
-  height: 71px;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  width: 636px;
-}
-
-.index .frame-8 {
-  height: 95px;
-  margin-left: 1px;
-  margin-top: 8px;
-  padding: 5px;
-  width: 673px;
-}
-
-.index .confirm-password {
-  height: 71px;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  width: 636px;
-}
-
-.index .place-1 {
-  height: 142px;
-  left: 152px;
-  position: absolute;
-  top: 119px;
-  width: 499px;
-}
-
-.index .have-an-account-sign-in {
-  cursor: pointer;
-  height: 153px;
-  left: 153px;
-  letter-spacing: 0;
-  line-height: 38.4px;
-  position: absolute;
-  text-align: center;
-  top: 898px;
-  width: 654px;
-}
-
-.index .frame {
-  align-items: flex-end;
-  display: flex;
-}
-
-.index .overlap-group-3 {
-  -webkit-backdrop-filter: blur(4px) brightness(100%);
-  backdrop-filter: blur(4px) brightness(100%);
-  border-radius: 15px;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .index .place-2 {
   letter-spacing: 0;
   line-height: 38.4px;
+  position: absolute;
 }

@@ -1,5 +1,10 @@
 /* screen - index */
 
+.body {
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 .index {
   align-items: flex-start;
   background-color: var(--white);
